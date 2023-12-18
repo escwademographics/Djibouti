@@ -65,7 +65,25 @@ if submit and email == actual_email and password == actual_password:
         st.write("[Health - الصحة](https://docs.google.com/spreadsheets/d/1NgYkl28FqsD9qkPuVqkoYE0J0b3n3m-R/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col7:
         st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/10WXo1MyEdiWQwee9d3XsDlJzBJozGsUa/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")   
+
+    st.title("Questionnaires in English Language are availble below:")
+
     
+    coll1, coll2, coll3, coll4, coll5, coll6, coll7 = st.columns(7)
+    with coll1:
+        st.write("[Population - السكان](https://docs.google.com/spreadsheets/d/1za0M8e5F64GqHl0BirTHnIC_KABxEBK9/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    with coll2:
+        st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1fG3F1vPMe1Hwcyq08DbsR4FC1SAyrHiT/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    with coll3:
+        st.write("[Poverty - الفقر](https://docs.google.com/spreadsheets/d/1BdSGNN4i4y0--74NMptt-fle4IjckWcr/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    with coll4:
+        st.write("[Education - التعليم](https://docs.google.com/spreadsheets/d/1LDdYjllR3aIBbt_srIJMNm7DDUMbdPbx/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    with coll5:
+        st.write("[Culture - الثقافة](https://docs.google.com/spreadsheets/d/1JpNW2NlFszDKPsBpnfNs7dEeBA-4xFVc/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    with coll6:
+        st.write("[Health - الصحة](https://docs.google.com/spreadsheets/d/1Rq9R1rCCaHB8y3XpV7dlWOegs8tcCsi4/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
+    with coll7:
+        st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/1q3ViZq4kNhq53NVXU9QnAm7Sdyd_Pn1e/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
 
 elif submit and email != actual_email and password != actual_password:
     st.error("هناك خطأ في اسم المستخدم او كلمة المرور، الرجاء المحاولة من جديد")
